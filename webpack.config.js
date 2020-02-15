@@ -107,15 +107,6 @@ module.exports = {
                         }
                     }
                 ]
-            },
-
-            {
-                test: /\.svg$/,
-                use: {
-                    loader: path.join(__dirname, "loader/loader.js"),
-                    options: {
-                    }
-                },
             }
 
         ]
